@@ -1,0 +1,63 @@
+@import "vendor/normalize";
+@import "vendor/foundation";
+@import "vendor/foundation-icons";
+@import "marker";
+
+#map-canvas {
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.sql-comment-container{
+    margin-top: 15px;
+}
+.sql-comment-container .sql-comment-container{
+    margin-left: 5%;
+}
+
+.button, button, button.inverted:hover, button.inverted:focus {
+    background-color: rgba(0, 0, 0, 0.31);
+    border-radius: 2px;
+    border-color: rgba(255, 255, 255, 0.31);
+    border-width: 1px;
+}
+
+button.inverted:hover, button.inverted:focus{
+    color: #FFF;
+}
+
+.button:focus, .button:hover, button:focus, button:hover, button.inverted {
+    background-color: rgba(255, 255, 255, 0.31);
+    border-color: rgba(0, 0, 0, 0.31);
+    border-width: 1px;
+    color: #000;
+}
+
+.left-padded{
+    margin-left: 5px;
+}
+
+a{
+    color: #999;
+}
+
+a:hover{
+    color: #000;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], input[type="number"], input[type="search"], textarea {
+
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, 0.31);
+
+}
+
+.sql-comment-comment-meta{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+
